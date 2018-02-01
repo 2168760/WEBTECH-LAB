@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/Regular/OpenSans-Regular.woff),
+    	 url(../fonts/Regular/OpenSans-Regular.woff2),
+    	 url(../fonts/Semibold/OpenSans-Semibold.woff),
+    	 url(../fonts/Semibold/OpenSans-Semibold.woff2),
+    	 url(../fonts/Bold/OpenSans-Bold.woff),
+    	 url(../fonts/Bold/OpenSans-Bold.woff2);
+}

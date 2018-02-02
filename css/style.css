@@ -228,7 +228,7 @@ Fourth section
     border-top: 10px solid rgb(248, 248, 248);
     border-left: 10px solid rgb(248, 248, 248);
     border-bottom: 10px solid rgb(248, 248, 248);
-    border-right: 5px solid rgbrgb(248, 248, 248);
+    border-right: 5px solid rgb(248, 248, 248);
 }
 #asset3{
     height: 600px;
@@ -286,7 +286,49 @@ footer{
     width: 100%;
     background-color: rgb(00, 00, 00);
 }
-
+/*
+=======================
+    COMMUNITY CSS
+=======================
+*/
+.c-first-section{
+    height: 1200px;
+    width: 100%;
+    background-color: #333;
+}
+#wrapper-image-section{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+#image-child-first{
+    height: 100%;
+    width: 33.333%;
+    background-color: yellow;
+}
+#child-image{
+    height: 100%;
+    width: 100%;
+}
+#image-child-second{
+    height: 100%;
+    width: 33.333%;
+    background-color: blue;
+}
+#child-image2{
+    width: 100%;
+    height: 100%;
+}
+#image-child-third{
+    height: 100%;
+    width: 33.333%;
+    background-color: green;
+}
+#child-image3{
+    width: 100%;
+    height: 100%;
+}
 /*
 =============
 Media Queries

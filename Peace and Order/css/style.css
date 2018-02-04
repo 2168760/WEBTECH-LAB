@@ -417,10 +417,11 @@ Community Second Section
 #brgy-act{
     height: 400px;
     width: 500px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     margin-top: 50px;
     margin-left: 1000px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 #activity-advocacy{
     padding: 10px;

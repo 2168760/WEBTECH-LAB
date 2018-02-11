@@ -52,6 +52,7 @@ li > a {
 li > a:hover{
     color: rgb(243, 156, 18);
 }
+
 /*
 =============
 First section
@@ -78,7 +79,7 @@ First section
     line-height: 150%;
     text-align: center;
     padding: 20px;
-    
+
 }
 #logo-state2{
     position: relative;
@@ -95,7 +96,7 @@ First section
     line-height: 150%;
     text-align: center;
     padding: 20px;
-    
+
 }
 #banner{
     height: 550px;
@@ -188,7 +189,6 @@ Fourth section
 .section-gallery{
     height: 600px;
     width: 90%;
-    background-color: #333;
     display: flex;
     position: relative;
     top: 20px;
@@ -230,8 +230,8 @@ Fourth section
     border-right: 5px solid rgb(248, 248, 248);
 }
 #asset3{
-    height: 600px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
 }
 #gallery-divider3{
     height: 600px;
@@ -242,8 +242,8 @@ Fourth section
     border-right: 10px solid rgb(248, 248, 248);
 }
 #asset4{
-    height: 600px;
-    width: 440px;
+    height: 100%;
+    width: 100%;
 }
 /*
 =============
@@ -629,32 +629,195 @@ Media Queries
     LAPTOP
 =============
 */
-@media only screen 
-and (max-width : 1224px){
-      /*first-section*/
-      #logo-state{
-          left: 0px;
-      }
-      #logo-state2{
-          left: 0px;
-      }
-      #banner{
-          left: 20px;
-      }
-      /*second-section*/
-      #second-section-header{
-          left: 50px;
-      }
-      #section-article-content{
-          left: 100px;
-      }
-      /*third-section*/
-      /*fourth-section*/
-      .section-gallery{
-          left: 0px;
-      }
-      #gallery-divider{
-          width: 300px;
-      }
+@media only screen  and (min-width : 1024px) and (max-width: 1500px) {
+    .envi{
+        font-size: 40px;
+    }
+    .protect{
+        font-size: 40px;
+    }
+    /*second-section*/
+    #second-section-header{
+        left: 100px;
+        height: 450px;
+        width: 550px;
+    }
+    #section-article-content{
+        left: 100px;
+    }
+    #article-content{
+        font-size: 18px;
+    }
+    /*fourth-section*/
+    .fourth-section{
+        height: 600px;
+    }
+    .section-gallery{
+        height: 500px;
+        left: 60px;
+    }
+    #gallery-divider{
+        width: 300px;
+        height: 500px;
+    }
+    #gallery-divider2{
+        width: 600px;
+        height: 500px;
+    }
+    #gallery-divider3{
+        width: 300px;
+        height: 500px;
+    }
+    /*sixth-section*/
+    .sixth-section{
+        height: 650px;
+    }
+    #title-content{
+        top: 50px;
+    }
+    #article-content2{
+        top: 60px;
+    }
+    /*
+    =======================
+    Community media queries
+    =======================
+    */
+    /*Community second section*/
+    #article-community-content{
+        margin-left: 100px;
+        width: 650px;
+    }
+    #community-content{
+        font-size: 18px;
+    }
+    #brgy-act{
+        width: 400px;
+        margin-left: 800px;
+    }
+    /*
+    ===================
+    About media queries
+    ===================
+    */
+    #title-history{
+        top: 50px;
+        left: 20px;
+        font-size: 30px;
+        display: block;
+    }
+    #history-image{
+        height: 450px;
+        width: 550px;
+        left: 50px;
+    }
+    #history-content{
+        height: 450px;
+        width: 550px;
+        left: -50px;
+    }
+    #history-article{
+        font-size: 18px;
+    }
+}
+
+/*
+============
+  Desktop
+============
+*/
+@media only screen  and (min-width : 1600px){
+  header{
+    height: 60px;
+  }
+  #logo{
+    font-size: 32px;
+  }
+  li > a{
+    padding: 17px 19px;
+  }
+  /*first-section*/
+  #logo-state{
+    left: 300px;
+  }
+  .envi{
+    font-size: 70px;
+  }
+  #logo-state2{
+    left: 350px;
+  }
+  .protect{
+    font-size: 70px;
+  }
+  #banner{
+    height: 600px;
+    width: 450px;
+    left: 450px;
+  }
+  /*second-section*/
+  #second-section-header{
+    left: 250px;
+  }
+  #section-article-content{
+    left: 250px;
+  }
+  #article-title{
+    font-size: 35px;
+  }
+  #article-content{
+    font-size: 22px;
+  }
+  /*fourth-section*/
+  .section-gallery{
+    left: 150px;
+  }
+  /*sixth-section*/
+  #article-content2{
+    padding-left: 200px;
+    padding-right: 350px;
+  }
+
+  /*
+  =======================
+  Community media queries
+  =======================
+  */
+  #article-community-content{
+    height: 870px;
+    width: 750px;
+    margin-left: 250px;
+  }
+  #community-content{
+    font-size: 22px;
+  }
+  #brgy-act{
+    height: 450px;
+    margin-left: 1100px;
+  }
+  #activity-advocacy{
+    font-size: 18px;
+  }
+  /*
+  =========================
+      ABOUT media queries
+  =========================
+  */
+  #title-history{
+    left: 200px;
+    font-size: 35px;
+  }
+  #history-image{
+    height: 600px;
+    width: 650px;
+    left: 300px;
+  }
+  #history-content{
+    height: 600px;
+    width: 650px;
+    left: 100px;
+  }
+  #history-article{
+    font-size: 23px;
+  }
 
 }

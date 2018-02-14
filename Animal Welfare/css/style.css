@@ -1,823 +1,121 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     text-decoration: none;
-}
-html{overflow-x: hidden;}
-body{background-color: rgb(248, 248, 248);}
-header{
-    height: 50px;
-    background:rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    display: block;
-    border-bottom: 1px solid rgb(248, 248, 248);
-    z-index: 100;
-}
-#logo{
-    float: left;
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 7px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: rgb(46, 204, 113);
-}
-.navbar{
-    height: 100%;
-    width: 50%;
-    position: relative;
-    margin-right: auto;
-    margin-left: 100px;
-}
-ul{
-    list-style-type: none;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-}
-li{
-    display: inline-block;
-}
-li > a {
-    color: rgb(128, 139, 142);
-    text-decoration: none;
-    cursor: pointer;
-    display: block;
-    padding: 16px 18px;
-    font-family: 'Roboto', sans-serif;
-}
-li > a:hover{
-    color: rgb(243, 156, 18);
-}
-
-/*
-=============
-First section
-=============
-*/
-.first-section{
-    height: 780px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-}
-#logo-state{
-    position: relative;
-    top: 250px;
-    left: 100px;
-    background-color: rgb(30, 39, 46);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index: 20;
-}
-.envi{
-    color: rgb(236, 240, 241);
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    line-height: 150%;
-    text-align: center;
-    padding: 20px;
-
-}
-#logo-state2{
-    position: relative;
-    top: 300px;
-    left: 300px;
-    background-color: rgb(30, 39, 46);
-    z-index: 20;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.protect{
-    color: rgb(236, 240, 241);
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    line-height: 150%;
-    text-align: center;
-    padding: 20px;
-
-}
-#banner{
-    height: 550px;
-    width: 400px;
-    position: relative;
-    top: 150px;
-    left: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index: 10;
-}
-#banner-logo{
-    height: 100%;
-    width: 100%;
-}
-/*
-==============
-Second section
-==============
-*/
-.second-section{
-    height: 780px;
-    width: 100%;
-    background-color: rgb(248, 248, 248);
-    display: flex;
-}
-#second-section-header{
-    height: 500px;
-    width: 600px;
-    position: relative;
-    top: 200px;
-    left: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#poster-image{
-    height: 100%;
-    width: 100%;
-}
-#section-article-content{
-    height: 500px;
-    width: 600px;
-    position: relative;
-    top: 200px;
-    left: 200px;
-}
-#article-title{
-    padding: 20px;
-    line-height: 150%;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-#article-content{
-    line-height: 150%;
-    padding: 20px;
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: rgb(72, 84, 96);
-}
-#line-divider{
-    width: 200px;
-    position: relative;
-    left: 20px;
-    color: rgb(5, 196, 107);
-}
-/*
-=============
-Third section
-=============
-*/
-.third-section{
-    height: 400px;
-    width: 100%;
-    background-image: url('../images/asset-7.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-/*
-==============
-Fourth section
-==============
-*/
-.fourth-section{
-    height: 650px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: block;
-}
-.section-gallery{
-    height: 600px;
-    width: 90%;
-    display: flex;
-    position: relative;
-    top: 20px;
-    left: 50px;
-}
-#gallery-divider{
-    height: 600px;
-    width: 300px;
-    background-color: #fff;
-    display: inline-block;
-}
-#content1{
-    height: 50%;
-    width: 100%;
-    border-top: 10px solid rgb(248, 248, 248);
-    border-left: 10px solid rgb(248, 248, 248);
-    border-bottom: 5px solid rgb(248, 248, 248);
-}
-#asset1{
-    height: 100%;
-    width: 100%;
-}
-#content2{
-    height: 50%;
-    width: 100%;
-    border-left: 10px solid rgb(248, 248, 248);
-    border-bottom: 10px solid rgb(248, 248, 248);
-}
-#asset2{
-    height: 100%;
-    width: 100%;
-}
-#gallery-divider2{
-    height: 600px;
-    width: 700px;
-    border-top: 10px solid rgb(248, 248, 248);
-    border-left: 10px solid rgb(248, 248, 248);
-    border-bottom: 10px solid rgb(248, 248, 248);
-    border-right: 5px solid rgb(248, 248, 248);
-}
-#asset3{
-    height: 100%;
-    width: 100%;
-}
-#gallery-divider3{
-    height: 600px;
-    width: 440px;
-    border-top: 10px solid rgb(248, 248, 248);
-    border-left: 5px solid rgb(248, 248, 248);
-    border-bottom: 10px solid rgb(248, 248, 248);
-    border-right: 10px solid rgb(248, 248, 248);
-}
-#asset4{
-    height: 100%;
-    width: 100%;
-}
-/*
-=============
-Sixth section
-=============
-*/
-.sixth-section{
-    height: 600px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: block;
-}
-#title-content{
-    position: relative;
-    top: 100px;
-    left: 200px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: rgb(44, 62, 80);
-}
-#article-content2{
-    line-height: 150%;
-    position: relative;
-    top: 110px;
-    padding-left: 200px;
-    padding-right: 200px;
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: rgb(72, 84, 96);
-    text-align: justify;
-}
-/*
-======
-Footer
-======
-*/
-footer{
-    height: 200px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-top: 1px solid #333;
-    display: flex;
-}
-#barangay-logo{
-    height: 100%;
-    width: 50%;
-}
-#brgy-logo{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: rgb(44, 62, 80);
-    position: relative;
-    top: 20px;
-}
-#barangay-contact{
-    height: 100%;
-    width: 50%;
-}
-#contact-header{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: rgb(44, 62, 80);
-    padding: 20px;
-}
-span{
-    padding: 20px;
-    line-height: 150%;
-    color: rgb(52, 73, 94);
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-/*
-=======================
-    COMMUNITY CSS
-=======================
-*/
-/*
-=======================
-Community first section
-*/
-.c-first-section{
-    height: 1200px;
-    width: 100%;
-    display: inline-block
-}
-#wrapper-image-section{
-    height: 50%;
-    width: 100%;
-    display: flex;
-}
-#image-child-first{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image{
-    height: 100%;
-    width: 100%;
-}
-#image-child-second{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image2{
-    width: 100%;
-    height: 100%;
-}
-#image-child-third{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image3{
-    width: 100%;
-    height: 100%;
-}
-#wrapper-image-section2{
-    height: 50%;
-    width: 100%;
-    display: flex;
-}
-#image-child-fourth{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image4{
-    width: 100%;
-    height: 100%;
-}
-#image-child-fifth{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image5{
-    width: 100%;
-    height: 100%;
-}
-#image-child-sixth{
-    height: 100%;
-    width: 33.333%;
-}
-#child-image6{
-    width: 100%;
-    height: 100%;
-}
-/*
-========================
-Community Second Section
-*/
-.c-second-section{
-    height: 1000px;
-    width: 100%;
-    background-color:rgb(248, 248, 248);
-    display: flex;
-}
-#article-community-content{
-    height: 800px;
-    width: 700px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-#community-content{
-    padding: 50px;
-    text-align: justify;
-    line-height: 150%;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    color: rgb(44, 62, 80);
-}
-#brgy-act{
-    height: 400px;
-    width: 500px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 1000px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-#activity-advocacy{
-    padding: 10px;
-    line-height: 150%;
-}
-/*
-===================
-    ABOUT CSS
-===================
-*/
-/*about first section*/
-.a-first-section{
-    height: 500px;
-    width: 100%;
-}
-#banner-link{
-    height: 100%;
-    width: 100%;
-}
-#banner-about-overlay{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-/*about second section*/
-.a-second-section{
-    height: 800px;
-    width: 100%;
-    display: flex;
-}
-#title-history{
-    position: relative;
-    top: 70px;
-    left: 75px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: rgb(44, 62, 80);
-}
-#history-image{
-    height: 500px;
-    width: 600px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    top: 150px;
-    left: 120px;
-}
-#image-history-pma{
-    height: 100%;
-    width: 100%;
-}
-#history-content{
-    height: 500px;
-    width: 600px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    top: 150px;
-    left: 20px;
-}
-#history-article{
-    padding: 50px;
-    line-height: 150%;
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-/*a-third-section*/
-.a-third-section{
-    height: 300px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-#wrapper-a-section{
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-#vision{
-    height: 100%;
-    width: 50%;
-}
-#vision-title{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    font-size: 50px;
-    color: rgb(41, 128, 185);
-    font-family: 'Roboto', sans-serif;
-}
-#vision-content{
-    position: relative;
-    top: 100px;
-    left: 50px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-#mission{
-    height: 100%;
-    width: 50%;
-}
-#mission-title{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    font-size: 50px;
-    color: rgb(41, 128, 185);
-    font-family: 'Roboto', sans-serif;
-}
-#mission-content{
-    position: relative;
-    top: 50px;
-    left: 10px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    padding: 50px;
-}
-/*a-section-header*/
-.a-section-header{
-    height: 40px;
-    width: 100%;
-    border: 1px solid #333;
-}
-
-/*a-fourth-section*/
-
-.a-fourth-section{
-    height: 500px;
-    width: 100%;
-}
-#Barangay-officials{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 5px;
-}
-#wrapper-fourth-section{
-    height: 50%;
-    width: 100%;
-    display: flex;
-}
-#official-1{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(236, 240, 241);
-}
-#official-2{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 248, 248);
-}
-#official-3{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(236, 240, 241);
-}
-#official-4{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 248, 248);
-}
-#official-5{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(236, 240, 241);
-}
-#wrapper-fourth-section2{
-    height: 50%;
-    width: 100%;
-    display: flex;
-}
-#official-6{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 248, 248);
-}
-#official-7{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(236, 240, 241);
-}
-#official-8{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 248, 248);
-}
-#official-9{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(236, 240, 241);
-}
-#official-10{
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 248, 248);
-}
-.officials{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    position: relative;
-    top: 70px;
-}
-/*
-=============
-Media Queries
-=============
-    LAPTOP
-=============
-*/
-@media only screen  and (min-width : 1024px) and (max-width: 1500px) {
-    .envi{
-        font-size: 40px;
-    }
-    .protect{
-        font-size: 40px;
-    }
-    /*second-section*/
-    #second-section-header{
-        left: 100px;
-        height: 450px;
-        width: 550px;
-    }
-    #section-article-content{
-        left: 100px;
-    }
-    #article-content{
-        font-size: 18px;
-    }
-    /*fourth-section*/
-    .fourth-section{
-        height: 600px;
-    }
-    .section-gallery{
-        height: 500px;
-        left: 60px;
-    }
-    #gallery-divider{
-        width: 300px;
-        height: 500px;
-    }
-    #gallery-divider2{
-        width: 600px;
-        height: 500px;
-    }
-    #gallery-divider3{
-        width: 300px;
-        height: 500px;
-    }
-    /*sixth-section*/
-    .sixth-section{
-        height: 650px;
-    }
-    #title-content{
-        top: 50px;
-    }
-    #article-content2{
-        top: 60px;
-    }
-    /*
-    =======================
-    Community media queries
-    =======================
-    */
-    /*Community second section*/
-    #article-community-content{
-        margin-left: 100px;
-        width: 650px;
-    }
-    #community-content{
-        font-size: 18px;
-    }
-    #brgy-act{
-        width: 400px;
-        margin-left: 800px;
-    }
-    /*
-    ===================
-    About media queries
-    ===================
-    */
-    #title-history{
-        top: 50px;
-        left: 20px;
-        font-size: 30px;
-        display: block;
-    }
-    #history-image{
-        height: 450px;
-        width: 550px;
-        left: 50px;
-    }
-    #history-content{
-        height: 450px;
-        width: 550px;
-        left: -50px;
-    }
-    #history-article{
-        font-size: 18px;
-    }
-}
-
-/*
-============
-  Desktop
-============
-*/
-@media only screen  and (min-width : 1600px){
+  }
   header{
-    height: 60px;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: #333;
   }
   #logo{
-    font-size: 32px;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgb(46, 204, 113);
+  }
+  .navbar{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+  }
+  ul{
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    display: block;
+    padding-top: 20px;
   }
   li > a{
-    padding: 17px 19px;
+    color: rgb(128, 139, 142);
+    cursor: pointer;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
   }
-  /*first-section*/
+  li > a:hover{
+      color: rgb(243, 156, 18);
+  }
+  /*
+  =============
+  First section
+  =============
+  */
+  .first-section{
+    height: 500px;
+    width: 85%;
+    margin-left: 15%;
+    background-color: #fff;
+    display: flex;
+  }
+  #wrapper{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(248, 248, 248);
+  }
   #logo-state{
-    left: 300px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(30, 39, 46);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .envi{
-    font-size: 70px;
+    color: rgb(236, 240, 241);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
   }
   #logo-state2{
-    left: 350px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(30, 39, 46);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .protect{
-    font-size: 70px;
+    color: rgb(236, 240, 241);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
   }
   #banner{
-    height: 600px;
-    width: 450px;
-    left: 450px;
+    height: 100%;
+    width: 50%;
+    overflow-y: hidden;
   }
-  /*second-section*/
+  #banner-logo{
+    height: 100%;
+    width: 100%;
+  }
+  /*
+  ==============
+  Second section
+  ==============
+  */
+  .second-section{
+    height: 500px;
+    width: 100%;
+    margin-left: 15%;
+    background-color: yellow;
+    display: flex;
+  }
   #second-section-header{
-    left: 250px;
+    height: 100%;
+    width: 50%;
+    background-color: red;
   }
   #section-article-content{
-    left: 250px;
+    height: 100%;
+    width: 50%;
+    background-color: blue;
   }
-  #article-title{
-    font-size: 35px;
-  }
-  #article-content{
-    font-size: 22px;
-  }
-  /*fourth-section*/
-  .section-gallery{
-    left: 150px;
-  }
-  /*sixth-section*/
-  #article-content2{
-    padding-left: 200px;
-    padding-right: 350px;
-  }
-
-  /*
-  =======================
-  Community media queries
-  =======================
-  */
-  #article-community-content{
-    height: 870px;
-    width: 750px;
-    margin-left: 250px;
-  }
-  #community-content{
-    font-size: 22px;
-  }
-  #brgy-act{
-    height: 450px;
-    margin-left: 1100px;
-  }
-  #activity-advocacy{
-    font-size: 18px;
-  }
-  /*
-  =========================
-      ABOUT media queries
-  =========================
-  */
-  #title-history{
-    left: 200px;
-    font-size: 35px;
-  }
-  #history-image{
-    height: 600px;
-    width: 650px;
-    left: 300px;
-  }
-  #history-content{
-    height: 600px;
-    width: 650px;
-    left: 100px;
-  }
-  #history-article{
-    font-size: 23px;
-  }
-
-}
+  

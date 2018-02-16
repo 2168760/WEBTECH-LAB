@@ -4,25 +4,28 @@
     overflow-x: hidden;
     text-decoration: none;
   }
+
   header{
-    height: 100%;
-    width: 15%;
+    height: 70px;
+    width: 100%;
     position: fixed;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
   }
   #logo{
     position:absolute;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: rgb(46, 204, 113);
   }
   .navbar{
-    height: 50%;
-    width: 100%;
-    position: absolute;
-    margin-top: 100px;
+    height: 100%;
+    width: 40%;
+    position: relative;
+    float: right;
+    left: 100px;
   }
   ul{
     list-style-type: none;
@@ -31,15 +34,15 @@
     margin: 0;
   }
   li{
-    display: block;
-    padding-top: 20px;
+    display: inline-block;
+    padding-top: 30px;
   }
   li > a{
-    color: rgb(128, 139, 142);
+    color: #000;
     cursor: pointer;
     margin-left: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
   }
   li > a:hover{
       color: rgb(243, 156, 18);
@@ -50,72 +53,202 @@
   =============
   */
   .first-section{
-    height: 500px;
-    width: 85%;
-    margin-left: 15%;
-    background-color: #fff;
-    display: flex;
+      height: 600px;
+      width: 90%;
+      position: relative;
+      top: 70px;
+      left: 5%;
+      display: flex;
   }
   #wrapper{
-    height: 100%;
-    width: 50%;
-    background-color: rgb(248, 248, 248);
+      height: 100%;
+      width: 50%;
+      background: #c0c0aa;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   #logo-state{
-    position: relative;
-    top: 100px;
-    background-color: rgb(30, 39, 46);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 100%;
+      position: relative;
+      top: 120px;
+      left: 50px;
   }
   .envi{
-    color: rgb(236, 240, 241);
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    padding: 20px;
+    font-size: 100px;
+    line-height: 150%;
+    color: rgb(44, 62, 80);
   }
   #logo-state2{
+    width: 100%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.protect{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  line-height: 150%;
+}
+#banner{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(225, 112, 85);
+    overflow: hidden;
+}
+#banner-logo{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+/*
+==============
+Second section
+==============
+*/
+.second-section{
+    height: 600px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    display: flex;
+}
+#second-section-header{
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+    overflow: hidden;
+}
+#poster-image{
+    height: 100%;
+    width: 100%;
+}
+#section-article-content{
+    height: 100%;
+    width: 50%;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#article-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-align: center;
     position: relative;
     top: 100px;
-    background-color: rgb(30, 39, 46);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .protect{
-    color: rgb(236, 240, 241);
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    padding: 20px;
-  }
-  #banner{
-    height: 100%;
+}
+#line-divider{
+    display:none;
+
+}
+#article-content{
+    padding: 50px;
+    text-align: justify;
+    line-height: 150%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 70px;
+    overflow: hidden;
+    color: #333;
+    font-weight: 600;
+}
+/*third-section*/
+.third-section{
+    height: 600px;
     width: 50%;
-    overflow-y: hidden;
-  }
-  #banner-logo{
-    height: 100%;
-    width: 100%;
-  }
-  /*
-  ==============
-  Second section
-  ==============
-  */
-  .second-section{
-    height: 500px;
-    width: 100%;
-    margin-left: 15%;
-    background-color: yellow;
+    background-color: turquoise;
+    border-radius: 100%;
+    position: relative;
+    left: 320px;
+    background: linear-gradient(1310deg, #00C9FF, #92FE9D);
+    background-size: 10px 100%;
+    animation: BackgroundGradient 10s ease infinite;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+/*
+==============
+Fourth section
+==============
+*/
+.fourth-section{
+    height: 1000px;
+    width: 90%;
+    position: relative;
+    left: 5%;
     display: flex;
-  }
-  #second-section-header{
+    background-color: #333;
+}
+.section-gallery{
     height: 100%;
-    width: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#gallery-divider{
+    height: 50%;
+    width: 100%;
     background-color: red;
-  }
-  #section-article-content{
+    display: flex;
+}
+#content1{
     height: 100%;
     width: 50%;
-    background-color: blue;
-  }
-  
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+#asset1{
+    height: 450px;
+    width: 90%;
+    padding: 25px;
+}
+#content2{
+    height: 100%;
+    width: 50%;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+#asset2{
+    height: 450px;
+    width: 90%;
+    padding: 25px;
+}
+#gallery-divider2{
+    height: 50%;
+    width: 50%;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+#asset3{
+    height: 450px;
+    width: 90%;
+    padding: 25px;
+}
+#gallery-divider3{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+#asset4{
+    height: 450px;
+    width: 90%;
+    padding: 25px;
+}

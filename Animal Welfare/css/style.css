@@ -193,7 +193,7 @@ Second section
 @keyframes animate {
     0% {box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.7)}
     50% {box-shadow: 0 0 0 50px rgba(255, 109, 74, 0)}
-    100% {box-shadow: 0 0 0 50px0 rgba(255, 109, 74, 0)}
+    100% {box-shadow: 0 0 0 50px rgba(255, 109, 74, 0)}
 }
 /*
 ==============
@@ -385,7 +385,7 @@ footer{
     overflow: hidden;
 }
 #barangay-contact{
-    height: 300pxs;
+    height: 300px;
     width: 50%;
 }
 #contact-header{

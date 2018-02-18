@@ -448,18 +448,70 @@ About CSS
     height: 500px;
     width: 100%;
     position: relative;
-    top: 70px;
+    top: 170px;
 }
 #banner-about-overlay{
     height: 80%;
     width: 70%;
     background-color: #333;
     position: relative;
-    top: 100px;
-    left: 100px;
+    top: 10px;
+    left: 300px;
     overflow: hidden;
 }
 #banner-link{
     height: 100%;
     width: 100%;
 }
+/* 
+===========
+second section /about
+*/
+.a-second-section{
+    height: 600px;
+    width: 90%;
+    position: relative;
+    top: 400px;
+    left: 5%;
+    display: flex;
+    overflow: hidden;
+}
+#history-image{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    left: 5%;
+    overflow: hidden;
+}
+#image-history-pma{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#title-history{
+    position: relative;
+    left: 350px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ff7f50;
+}
+#history-content{
+    height: 85%;
+    width: 35%;
+    position: relative;
+    left:5%;
+    background-color: yellow;
+}
+#history-article{
+    padding: 50px;
+    line-height: 150%;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+

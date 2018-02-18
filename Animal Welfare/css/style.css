@@ -99,7 +99,21 @@
     width: 90%;
     padding: 30px;
 
+    background-color: #fad390;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
 }
+#banner-logo:hover{
+    z-index:100;
+   -webkit-animation:scale 1s linear;
+   -moz-animation:scale 1s linear;
+   animation:scale 1s linear;
+   transform-origin:50% 50%;
+   animation-fill-mode: forwards;
+ }
 /*
 ==============
 Second section
@@ -122,6 +136,19 @@ Second section
     height: 540px;
     width: 90%;
     padding: 30px;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+#poster-image:hover{
+    z-index:100;
+   -webkit-animation:scale 1s linear;
+   -moz-animation:scale 1s linear;
+   animation:scale 1s linear;
+   transform-origin:50% 50%;
+   animation-fill-mode: forwards;
 }
 #section-article-content{
     height: 100%;
@@ -200,6 +227,19 @@ Fourth section
     height: 450px;
     width: 90%;
     padding: 25px;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+#asset1:hover{
+    z-index:100;
+    -webkit-animation:scale 1s linear;
+    -moz-animation:scale 1s linear;
+    animation:scale 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
 }
 #content2{
     height: 100%;
@@ -211,6 +251,19 @@ Fourth section
     height: 450px;
     width: 90%;
     padding: 25px;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+#asset2:hover{
+    z-index:100;
+    -webkit-animation:scale 1s linear;
+    -moz-animation:scale 1s linear;
+    animation:scale 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
 }
 #gallery-divider2{
     height: 50%;
@@ -222,6 +275,20 @@ Fourth section
     height: 450px;
     width: 90%;
     padding: 25px;
+    background-color: #fad390;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+#asset3:hover{
+    z-index:100;
+   -webkit-animation:scale 1s linear;
+   -moz-animation:scale 1s linear;
+   animation:scale 1s linear;
+   transform-origin:50% 50%;
+   animation-fill-mode: forwards;
 }
 #gallery-divider3{
     height: 50%;
@@ -236,6 +303,20 @@ Fourth section
     height: 450px;
     width: 90%;
     padding: 25px;
+    background-color: #fad390;
+    -webkit-animation:scaledown 1s linear;
+    -moz-animation:scaledown 1s linear;
+    animation:scaledown 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+#asset4:hover{
+    z-index:100;
+    -webkit-animation:scale 1s linear;
+    -moz-animation:scale 1s linear;
+    animation:scale 1s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
 }
 /*
 =============
@@ -288,6 +369,7 @@ footer{
     position: absolute;
     margin-top: 100px;
     display: flex;
+    overflow: hidden;
 }
 #barangay-logo{
     height: 100%;
@@ -300,20 +382,24 @@ footer{
     color: #ff7f50;
     position: relative;
     top: 20px;
+    overflow: hidden;
 }
 #barangay-contact{
-    height: 100%;
+    height: 300pxs;
     width: 50%;
 }
 #contact-header{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #ff7f50;
-    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
 }
 span{
-    padding: 20px;
     line-height: 150%;
+    position: absolute;
+    margin-top: 20px;
     color: #ff7f50;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -334,14 +420,12 @@ Community CSS
 #wrapper-image-section{
     height: 50%;
     width: 100%;
-    background-color: #000; 
     display: flex;
     overflow-y: hidden;
 }
 #image-child-first{
     height: 100%;
     width: 33.333%;
-    background-color: green;
     overflow: hidden;
 }
 #child-image{
@@ -351,7 +435,6 @@ Community CSS
 #image-child-second{
     height: 100%;
     width: 33.333%;
-    background-color: powderblue;
     overflow: hidden;
 }
 #child-image2{
@@ -361,7 +444,6 @@ Community CSS
 #image-child-third{
     height: 100%;
     width: 33.333%;
-    background-color: palegreen;
     overflow: hidden;
 }
 #child-image3{
@@ -377,7 +459,6 @@ Community CSS
 #image-child-fourth{
     height: 100%;
     width: 33.333%;
-    background-color: palegreen;
     overflow: hidden;
 }
 #child-image4{
@@ -387,7 +468,6 @@ Community CSS
 #image-child-fifth{
     height: 100%;
     width: 33.333%;
-    background-color: powderblue;
     overflow: hidden;
 }
 #child-image5{
@@ -397,7 +477,6 @@ Community CSS
 #image-child-sixth{
     height: 100%;
     width: 33.333%;
-    background-color: green;
     overflow: hidden;
 }
 #child-image6{
@@ -537,8 +616,13 @@ third section/about
     background-color: #b8e994;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#vision-content{
+#vision-title{
+    font-family: 'Roboto', sans-serif;
     padding: 20px;
+}
+#vision-content{
+    position: relative;
+    left: 10px;
     font-size: 18px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -552,8 +636,12 @@ third section/about
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#mission-title{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
 #mission-content{
-    padding: 50px;
+    padding: 0px 20px 20px 20px;
     font-size: 18px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -565,9 +653,10 @@ section header
 .a-section-header{
     height: 300px;
     width: 300px;
-    background-color: blue;
+    background-color: #badc58;
     border-radius: 100%;
     position: relative;
+    bottom: 10px;
     left: 50px;
 }
 #Barangay-officials{
@@ -683,5 +772,26 @@ fourth section/about
     padding: 10px;
     margin: 70px auto;
 }
+/* animation section */
+@keyframes scale{
+    0%{
+      transform:scale(1.0);
+    }
+    100%{
+    transform:scale(1.1);
+    -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+    }
+  }
+  
+  @keyframes scaledown{
+    0%{
+      transform:scale(1.1);
+    }
+     100%{
+      transform:scale(1.0);
+    }
+  }
 
 

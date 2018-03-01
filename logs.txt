@@ -1,0 +1,432 @@
+commit eaa892811ee6c105ccdce6618e923faf3f49a36f
+Author: JessieMartinTabilisma <35614372+JessieMartinTabilisma@users.noreply.github.com>
+Date:   Tue Feb 20 18:07:10 2018 +0800
+
+    IIS reference
+
+commit b32268f279898c6fc353b2bc4633e9c36c793379
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 21:48:41 2018 +0800
+
+    fixing error based on the validator
+
+commit 6a9419776eec303413f524dbaaa927c285af7eb6
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 21:35:23 2018 +0800
+
+    final design / media-queries
+
+commit 4fd598ac53810ed2859577d80ebdb5caab4acdee
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 20:31:41 2018 +0800
+
+    added effects to the image
+
+commit 8eeb6b678f6c0eafec4f195972162d559b2cf641
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 15:21:41 2018 +0800
+
+    finishing the design
+
+commit 13b2d03455c4945eb5399c633d0786793bca78eb
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 13:26:24 2018 +0800
+
+    positiong image
+
+commit b5ba787c8a397804333f3bdb1b495758ea44fb45
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 18 12:55:30 2018 +0800
+
+    homepage community page
+
+commit d7b716dd3c49346f65a85a872a7cccd47d274b3a
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Fri Feb 16 16:28:40 2018 +0800
+
+    working on the colors of the webpages
+
+commit fbebb0aefd37aeabe4154498f867420296bdae0d
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Fri Feb 16 14:39:39 2018 +0800
+
+    added gradient color as a background
+
+commit 1e341c144aec2c26bace465b90a3575ca813e914
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Wed Feb 14 12:34:16 2018 +0800
+
+    Added alternate css file with sidebar
+
+commit c696cac15ab59f86e86d8f71b3300a97f26cef1c
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 11 22:28:21 2018 +0800
+
+    finalize css design AW
+
+commit 8c8fc834631aa3214b7de0aecd08c28e0944156e
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 11 22:27:36 2018 +0800
+
+    final css design PO
+
+commit 575dc13de23a9957be1bbafa6e009ea1696016a0
+Author: JessieMartinTabilisma <2164631@slu.edu.ph>
+Date:   Sun Feb 11 22:25:55 2018 +0800
+
+    finalizing css design and media queries
+
+commit 31e2b07fe258d62013d8b1137fe876ef4d1e781c
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Sun Feb 4 22:54:28 2018 +0800
+
+    Deliverable 1
+
+commit 703dae559371c36b3bbb3a92ab525d0e37c17977
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 22:49:09 2018 +0800
+
+    fixing error
+
+commit fa2f3e448ac0dc8e392346f294ce2bf66f1832a4
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 22:35:50 2018 +0800
+
+    finalize animal welfare webpage
+
+commit 7615c0c6af814710053867e0b5499f838917383f
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 22:26:44 2018 +0800
+
+    finalizing peace and order and environmental protection
+
+commit a31d6ad4d06149be2412e430e90bfa312d0fb023
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 21:40:50 2018 +0800
+
+    updated images and activities
+
+commit 3bc304dbbc5b70d5645bba87e40ec7439ee4db8d
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 21:31:35 2018 +0800
+
+    fixing spacing error
+
+commit 117ec3ff632f58c7db8d0594646366767a97d995
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 20:52:37 2018 +0800
+
+    community activity section updated
+
+commit 2f417a175be3c91e6bd6aa395e947bb56349e8d4
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 20:44:36 2018 +0800
+
+    fixing font issues
+
+commit b81cce9f6d477db1440a6417d73854ad1b2dfbeb
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 19:22:57 2018 +0800
+
+    updating animal welfare webpage
+
+commit 1daba00cb7be53c4ee1e1c5e49f20cd18a64d15f
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 19:13:55 2018 +0800
+
+    created web pages for animal welfare
+
+commit 7e07791d0180ec85e0f1063f306f2deefc74de2e
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 17:57:33 2018 +0800
+
+    created peace and order web pages
+
+commit a9c5945c2c653c02fec0b4a95781a5b30aa55b1e
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 08:46:21 2018 +0800
+
+    finalized environmentalProtection webpage
+
+commit 3e8e1e87e867103a66d4552049c2135b4cadc88b
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 08:42:03 2018 +0800
+
+    organizing images/deleted unused images
+
+commit 3999b490e8029a80b970365155e59f81682fdb04
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 08:17:57 2018 +0800
+
+    finalizing the web pages
+
+commit 5d1f7568c9d7dd4cc85a700420e4f8a5e2e53fb5
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 06:44:32 2018 +0800
+
+    created the about page
+
+commit 988814be24c758870d7e0fd3c2112b1ca2fbbcbb
+Author: jessie <jessi@tabilisma.com>
+Date:   Sun Feb 4 01:18:58 2018 +0800
+
+    created an about page
+
+commit a69853c50834507423f49440c418104915ea8f19
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Sat Feb 3 22:49:40 2018 +0800
+
+    Fixed and Added content of Community tab, About tab, and Contact tab
+
+commit 1f1bdaa88d50c299a463941bba1c668c6460c469
+Author: jessie <jessi@tabilisma.com>
+Date:   Sat Feb 3 00:30:32 2018 +0800
+
+    finalizing gallery
+
+commit d2672689009cd3d42c8d21c1c870c7110606c216
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Fri Feb 2 23:08:17 2018 +0800
+
+    Added authorization letter for confidentiality of data
+
+commit da9fa4d88d49aec183f334d50ae86647ba9553ea
+Merge: e707d97 8b47f89
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Fri Feb 2 22:40:30 2018 +0800
+
+    Merge branch 'master' of https://github.com/VironicaLeonardo/WEBTECH-LAB
+
+commit e707d975430be92ff5dc81604b11d59eb90b8325
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Fri Feb 2 22:39:36 2018 +0800
+
+    Added files on community folder regarding community nav.
+
+commit 8b47f89045852135524708e2048ccbb45d9a052b
+Author: jessie <jessi@tabilisma.com>
+Date:   Fri Feb 2 22:35:20 2018 +0800
+
+    created community html and a gallery
+
+commit da5ce4023a2d7a6183a0221ef2dedd2d24e64ca4
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Fri Feb 2 22:28:19 2018 +0800
+
+    Corrected human error and gramaticall error on the content of the 3 advocacies
+
+commit 3ade67053498410b17b3aa526d5c15309c360c11
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Fri Feb 2 18:47:33 2018 +0800
+
+    Delete style.css
+
+commit ae98b6264bebffa5413ecab7f2b1504f20928e70
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Fri Feb 2 18:47:24 2018 +0800
+
+    Delete index.html
+
+commit e2a9f5e8e2dced797e55f595be21f86ed30560c8
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Fri Feb 2 18:45:40 2018 +0800
+
+    Add files via upload
+
+commit 971c2848347d6b1255f20ad3093c0000c1b75c32
+Author: 2158697 <2158697@slu.edu.ph>
+Date:   Thu Feb 1 22:29:07 2018 +0800
+
+    added partial contents on the 3 advocies
+
+commit ab548dacd534602de6332569d0c1bef07413331f
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Thu Feb 1 05:33:15 2018 -0800
+
+    Added brief history of Barangay Camp T. Allen
+
+commit 9086f59c326fa6b52462d4dd1edea364fdf63441
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 20:41:04 2018 +0800
+
+    other additional content for our advocacies
+
+commit 73b4121fb3fb42cf3fca10598d84b358a3ab8300
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 20:34:16 2018 +0800
+
+    content for peace and order
+
+commit c722cffa025fa7398d52766dac4423d4b880f30b
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 20:29:55 2018 +0800
+
+    content for animal welfare
+
+commit 7dc730414f3ec405ea9af38df992ef14d1eff761
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 20:01:54 2018 +0800
+
+    content for environmental protection
+
+commit 5ad8bc362604999bb823d5a017b175c56f55da68
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 13:32:50 2018 +0800
+
+    added a logo to the navbar
+
+commit 1c6dabee8cdd89d7cd10c1ec6c4cda3f5976a94e
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 13:07:23 2018 +0800
+
+    created article and a footer, also fix the sizing with some media queries
+
+commit 0bb1bab94499dad1047bf1babb0b8b99a4b13652
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 12:27:38 2018 +0800
+
+    created image gallery
+
+commit 88a474a6d6cde62d52bb449686b661bcd1262f04
+Author: mastchel <34060683+mastchel@users.noreply.github.com>
+Date:   Thu Feb 1 10:44:03 2018 +0800
+
+    Add files via upload
+    
+    environmental protection advocacy website (unfinished)
+
+commit a78d142ed12996664f719cf6ae5d9f31d25019cb
+Merge: 6426997 66edc8f
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:51:52 2018 +0800
+
+    Merge branch 'master' into environmental
+
+commit 64269976dcff11b9d38e7c636ebcf4bf3ae35b15
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:51:18 2018 +0800
+
+    commit additional content for environmental protection advocacy
+
+commit 66edc8f9fa3d86226139981b6ab22017fc6622e3
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:36:10 2018 +0800
+
+    Revert "commit environmental protection website and additional content
+    duplicate"
+    
+    This reverts commit 0e2abc62d6aea5596a8f5423ade9085a1321961c.
+
+commit f4d08385d712b5dc1dff381bda0ad6f6ba08c87d
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:18:27 2018 +0800
+
+    commit additional content for environmental protection advocacy
+
+commit 0e2abc62d6aea5596a8f5423ade9085a1321961c
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:07:57 2018 +0800
+
+    commit environmental protection website and additional content
+
+commit 7f952534a781257e2015b3db7bfeefad25c0fa19
+Author: unknown <patrick@gmail.com>
+Date:   Thu Feb 1 09:03:24 2018 +0800
+
+    commit
+
+commit 1d4e3617ecd5ea8b22bf0b4cd566cd6767884c33
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 07:14:42 2018 +0800
+
+    reducing the size of the images
+
+commit 43289ec87799c00340102c984841cd9326243772
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 06:59:03 2018 +0800
+
+    designing every section of the web pages
+
+commit 4f8a766bcd3d22b307f192a502d6ff3f4a908ead
+Author: jessie <jessi@tabilisma.com>
+Date:   Thu Feb 1 06:58:27 2018 +0800
+
+    adding nav, section and images
+
+commit 8c23f4ba43f29eb28ebaa3e3af0df7439c40175b
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Thu Feb 1 02:08:35 2018 +0800
+
+    Add files via upload
+
+commit f854dd3511eaf93b8b049d9577428faaaffbd3bc
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Wed Jan 31 07:44:01 2018 -0800
+
+    Added initial content
+
+commit 293ab67381031615cfbab028a1675b3db130a235
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Wed Jan 31 07:41:40 2018 -0800
+
+    Delete Content
+
+commit a58c73e83dda5e0be47dc8175b8b5dc21b570ff2
+Author: 2163824 <35598036+2163824@users.noreply.github.com>
+Date:   Wed Jan 31 07:39:24 2018 -0800
+
+    Create Content
+
+commit 5e140f96cb6339d96a269f47dfe0f1ed8cac24f0
+Author: VironicaLeonardo <vironicaleonardo@gmail.com>
+Date:   Wed Jan 31 22:53:00 2018 +0800
+
+    Add files via upload
+
+commit d137ba98015e32677ec74dd0ec192115783bef0c
+Author: jessie <jessi@tabilisma.com>
+Date:   Tue Jan 30 17:34:01 2018 +0800
+
+    added images for environmental protection
+
+commit 4ba124d73fa56381116ddf559e3e533fadeaf9fe
+Author: jessie <jessi@tabilisma.com>
+Date:   Tue Jan 30 17:29:11 2018 +0800
+
+    creating nav, adding css
+
+commit e6fe7cd828c4ed9eb66138aa7a7f01d50fff6341
+Author: jessie <jessi@tabilisma.com>
+Date:   Tue Jan 30 17:22:21 2018 +0800
+
+    changes
+
+commit 9a95eaa348d0becd2feb28c475ba0ae47d91497d
+Author: jessie <jessi@tabilisma.com>
+Date:   Tue Jan 30 17:17:21 2018 +0800
+
+    change to index html file
+
+commit e50bcf2edcf7589570032a946d9e567cf0d9e8bf
+Author: jessie <jessi@tabilisma.com>
+Date:   Tue Jan 30 17:05:15 2018 +0800
+
+    chnage the name to index.html
+
+commit 3ce2239afe1846141b852ebfd9b5bbfccba27446
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Fri Jan 19 18:58:29 2018 +0800
+
+    Update Environmental.html
+
+commit b9a498433cafde97fdacfdfd2c8b309f826a26de
+Author: magalonglouise <35597414+magalonglouise@users.noreply.github.com>
+Date:   Fri Jan 19 18:57:18 2018 +0800
+
+    Add files via upload
+
+commit ab684b1fa94e33060b4d7d11345c3b3f5dfb419d
+Author: VironicaLeonardo <vironicaleonardo@gmail.com>
+Date:   Fri Jan 19 18:45:34 2018 +0800
+
+    Initial commit
